@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    </head>
+    <body>
+        <h1>Enter struct name, variables and types:</h1>
+        <br>
+        <form method="POST">
+            <textarea class="resizedTextbox" name="text">Collection
+id int64
+value string</textarea>
+        <br>
+        <br>
+        <br>
+        <input class="gbutton" type="submit" value="Generate">
+        </form>
+    </body>
+</html>

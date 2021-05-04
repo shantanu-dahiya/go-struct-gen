@@ -1,0 +1,11 @@
+body {
+    margin: 15px;
+    background: #eeeeee;
+    font-family: monospace;
+}
+
+code {
+    font-size: 14px;
+    display: inline-block;
+    white-space: pre-wrap;
+}
