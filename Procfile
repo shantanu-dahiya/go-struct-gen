@@ -1,1 +1,2 @@
-web: pip3 install -r requirements.txt && python3 app.py
+web: python3 app.py
+heroku ps:scale web=1
